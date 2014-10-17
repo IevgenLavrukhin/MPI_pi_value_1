@@ -1,0 +1,10 @@
+To compile and run the code do:
+
+	make
+
+It creates "run" file in the same directory.
+To run code you need to type in terminal:
+
+	mpirun -n "X" ./run "N"
+
+where X is a number of processors you want to use  N is a number of generated points for each processor. So you will have (X*N points(generated events))
